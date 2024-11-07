@@ -1,46 +1,40 @@
-/* Import Bootstrap */
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-/* Custom global styles can go here */
 body {
   font-family: Arial, sans-serif;
 }
 
-/* Card image styling */
 .card-img-top {
-  height: 200px; /* Fixed height for images */
-  width: 100%; /* Ensure it stretches the full width of the card */
-  object-fit: contain; /* Ensures the image is fully visible without being cropped */
-  border-top-left-radius: 10px; /* Rounded top corners */
-  border-top-right-radius: 10px; /* Rounded top corners */
+  height: 200px; 
+  width: 100%; 
+  object-fit: contain; 
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
 }
 
-/* Card body layout */
 .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 250px; /* Ensures consistent height for all card bodies */
+  height: 250px; 
 }
 
-/* Title, text, and button spacing */
 .card-title {
   font-size: 1.2rem;
-  font-weight: bold; /* Bold title */
-  margin-bottom: 10px; /* Space below title */
+  font-weight: bold; 
+  margin-bottom: 10px; 
 }
 
 .card-text {
   font-size: 1rem;
-  margin-bottom: 15px; /* Space below description */
+  margin-bottom: 15px; 
 }
 
 .btn {
-  margin-top: auto; /* Push the button to the bottom */
-  width: 100%; /* Make the button take up the full width of the card */
+  margin-top: auto; 
+  width: 100%; 
 }
 
-/* Ensure all cards have consistent rounded corners */
 .card {
-  border-radius: 10px; /* Rounded corners */
+  border-radius: 10px; 
 }
